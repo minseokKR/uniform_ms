@@ -1,0 +1,89 @@
+.focus-table table th{
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.focus-table table td {
+  text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+}
+  
+.focus-table table {
+  width: 30%;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-image: url('paper.jpg');
+  background-size: cover;
+  position: absolute;
+}
+
+.grid-nav {
+  grid-area: 헤더;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.grid-sidebar {
+  grid-area: 사이드;
+}
+
+.college-grid-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 100px 100px 100px 100px 100px 100px;
+  grid-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-template-areas: 
+    "헤더"
+    "사이드"
+    "사이드"
+    "사이드"
+    "사이드"
+    "사이드"
+    "사이드"
+    
+}
+
+.uni-search-1 {
+  display: flex;
+  flex-direction: row;
+}
+.uni-search-2 {
+  display: flex;
+  flex-direction: row;
+}
+.uni-search-3 {
+  display: flex;
+  flex-direction: row;
+}
+.uni-search-4 {
+  display: flex;
+  flex-direction: row;
+}
+.uni-search-5 {
+  display: flex;
+  flex-direction: row;
+}
+.uni-search-6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* 요소들을 가로로 나열하기 위해 행 방향으로 설정 */
+  align-items: center; /* 요소들을 수직 중앙 정렬 */
+  width: 1000px;
+}
+
+.focus-btn {
+  width: 20%;
+
+}
+
+.form-label { 
+  font-size: 15px;
+  font-weight: bold;
+}

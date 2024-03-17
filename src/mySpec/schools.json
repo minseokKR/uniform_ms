@@ -1,0 +1,17 @@
+{
+    "university": [
+      {
+        "id": 0,
+        "name": "GIST"
+      },
+      {
+        "id": 1,
+        "name": "UNIST"
+      },
+      {
+        "id": 2,
+        "name": "SNU"
+      }
+    ]
+  }
+  

@@ -1,0 +1,120 @@
+.mainBar {
+  height: 100px;
+  width: 100%;
+  background-color: #755c5c;
+  position: relative;
+}
+
+.mainLogo {
+  background-image: url('../logo/uniform_logo.png');
+  height: 100px;
+  width: 300px;
+  background-size : cover;
+  background-position : center;
+  position: relative;
+}
+
+.chatBotPage input {
+  flex: 1;
+  width: 100%;
+  height: 42px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ff8d3f;
+  border-radius: 3px;
+}
+
+.chatWindow {
+  width: 90%;
+  height: 70vh;
+  background-color: rgb(252, 252, 252);
+  overflow-y: auto;
+  border: 2px solid #ff8d3f;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.message {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  max-width: 500px;
+  background-color: #fccdaf;
+  text-align: right;
+  margin-left: auto;
+}
+
+.bot {
+  max-width: 500px;
+  background-color: #c9f8c9;
+  text-align: left;
+}
+
+.inputContainer {
+  width: 90%;
+  display: flex;
+  margin-left: 70px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff954f;
+  border: 2px solid #ff954f;
+}
+
+.activityBtn {
+  padding: 5px 7px;
+  width: 115px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #29dd29;
+  border: 2px solid #29dd29;
+}
+
+.competitionBtn {
+  padding: 5px 7px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #29dd29;
+  border: 2px solid #29dd29;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

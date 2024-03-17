@@ -1,0 +1,17 @@
+.table th {
+    text-align: center;
+}
+
+/* 테이블의 테두리 색상 설정 */
+.scoreInput table {
+  width: 100%;
+}
+
+/* 테이블 셀의 테두리 색상 설정 */
+.scoreInput table td, .scoreInput table th {
+  border: 1px solid gray; /* 셀 테두리 색상과 굵기 설정 */
+}
+
+.scoreInput button {
+    border-radius: 5px;
+}
